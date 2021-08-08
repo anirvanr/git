@@ -412,6 +412,7 @@ Git performs merges two ways: `fast-forward` and `three-way`
 
 If master has diverged since the feature branch was created, the merging the feature branch into master will create a merge commit. If master has not diverged, instead of creating a new commit, git will then simply point master to the latest commit of the feature branch. This is a `fast forward`.
 
+<img width="489" alt="Screenshot_01" src="https://user-images.githubusercontent.com/13599486/128633888-80a54861-75ee-45a9-bc17-cf0839257aa0.png">
 
 
 
