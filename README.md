@@ -781,3 +781,7 @@ If you forgot to clone with recurse on
 `git submodule update --init --recursive`
 
 Remember that Git doesn’t download submodule contents by default. **If you’re adding a submodule to an existing project, make sure anyone that works on the project knows they need to run commands like `git submodule update` and `git clone --recursive` to ensure they get everything.**
+
+##oneliner
+
+`git log --pretty=format:"%h %ad | %s %d [%an]" --after="2023-02-10 12:00:00" --until="2023-02-11"`
