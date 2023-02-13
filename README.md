@@ -785,3 +785,17 @@ Remember that Git doesn’t download submodule contents by default. **If you’r
 ##oneliner
 
 `git log --pretty=format:"%h %ad | %s %d [%an]" --after="2023-02-10 12:00:00" --until="2023-02-11"`
+
+%h=Shortened hash-id/sha1commit ids
+
+%H=long sha-1 ids
+
+%ad=authored date
+
+%s= commit subject title line
+
+%d=reference pointer(branch, tag) names
+
+%an=author name
+
+
