@@ -1,3 +1,5 @@
+Git is a distributed version control system that tracks changes in files, enabling collaborative software development and maintaining a history of project modifications.
+
 ## Setup
 
 See where Git is located:
